@@ -1,0 +1,566 @@
+Municipal,County,Population,Type
+newark,essex,285154,city
+jersey city,hudson,270753,city
+paterson,passaic,148678,city
+elizabeth,union,130215,city
+edison,middlesex,102450,township
+woodbridge township,middlesex,101965,township
+lakewood township,ocean,102682,township
+toms river,ocean,93017,township
+hamilton township,mercer,89078,township
+trenton,mercer,84964,city
+clifton,passaic,86607,city
+camden,camden,74532,city
+brick township,ocean,75516,township
+cherry hill,camden,71479,township
+passaic,passaic,71247,city
+middletown township,monmouth,65603,township
+union city,hudson,70387,city
+old bridge township,middlesex,67032,township
+gloucester township,camden,64159,township
+east orange,essex,65378,city
+bayonne,hudson,67186,city
+franklin township,somerset,66734,township
+north bergen,hudson,63659,township
+vineland,cumberland,60392,city
+union township,union,59327,township
+piscataway,middlesex,57887,township
+new brunswick,middlesex,57073,city
+jackson township,ocean,57073,township
+wayne,passaic,55072,township
+irvington,essex,54865,township
+parsippany-troy hills,morris,53201,township
+howell township,monmouth,52476,township
+perth amboy,middlesex,52823,city
+hoboken,hudson,55131,city
+plainfield,union,51327,city
+west new york,hudson,54227,town
+washington township,gloucester,47848,township
+east brunswick,middlesex,48840,township
+bloomfield,essex,50970,township
+west orange,essex,48435,township
+evesham township,burlington,45381,township
+bridgewater township,somerset,45414,township
+south brunswick,middlesex,46561,township
+egg harbor township,atlantic,43296,township
+manchester township,ocean,43395,township
+hackensack,bergen,45248,city
+sayreville,middlesex,45325,borough
+mount laurel,burlington,41662,township
+berkeley township,ocean,41747,township
+north brunswick,middlesex,42641,township
+kearny,hudson,42670,town
+linden,union,43056,city
+marlboro township,monmouth,40306,township
+teaneck,bergen,41311,township
+atlantic city,atlantic,38429,city
+winslow township,camden,39041,township
+monroe township,middlesex,45332,township
+manalapan township,monmouth,40013,township
+hillsborough township,somerset,40003,township
+montclair,essex,39227,township
+galloway township,atlantic,36563,township
+freehold township,monmouth,35053,township
+monroe township,gloucester,36920,township
+belleville,essex,36498,township
+pennsauken township,camden,35934,township
+ewing township,mercer,36549,township
+fort lee,bergen,37907,borough
+lawrence township,mercer,33161,township
+fair lawn,bergen,33710,borough
+willingboro township,burlington,32062,township
+long branch,monmouth,30762,city
+deptford township,gloucester,30582,township
+garfield,bergen,32393,city
+westfield,union,30433,town
+city of orange,essex,30813,township
+livingston,essex,30142,township
+voorhees township,camden,29462,township
+princeton,mercer,27918,borough
+millville,cumberland,28928,city
+nutley,essex,29253,township
+mount olive township,morris,27844,township
+neptune township,monmouth,27301,township
+pemberton township,burlington,28819,township
+lacey township,ocean,30131,township
+rahway,union,26988,city
+ocean township,monmouth,27725,township
+east windsor township,mercer,28491,township
+west windsor township,mercer,29112,township
+englewood,bergen,27927,city
+bergenfield,bergen,27061,borough
+bernards township,somerset,27346,township
+stafford township,ocean,26408,township
+hamilton township,atlantic,27032,township
+paramus,bergen,25981,borough
+wall township,monmouth,26759,township
+mahwah,bergen,26856,township
+west milford,passaic,25893,township
+randolph,morris,24505,township
+bridgeton,cumberland,25692,city
+ridgewood,bergen,25494,village
+rockaway township,morris,24961,township
+lodi,bergen,22239,borough
+vernon township,sussex,24847,township
+maplewood,essex,25142,township
+cliffside park,bergen,24630,borough
+scotch plains,union,24435,township
+south plainfield,middlesex,23342,borough
+roxbury township,morris,23496,township
+medford,burlington,23504,township
+plainsboro township,middlesex,21766,township
+lower township,cape may,24084,township
+carteret,middlesex,24439,borough
+cranford,union,22824,township
+burlington township,burlington,22489,township
+morris township,morris,23584,township
+montgomery,somerset,22106,township
+raritan township,hunterdon,22060,township
+north plainfield,somerset,21248,borough
+west deptford township,gloucester,21681,township
+montville,morris,22323,township
+summit,union,22274,city
+hillside,union,21368,township
+jefferson township,morris,21976,township
+roselle,union,22783,borough
+barnegat township,ocean,20540,township
+moorestown,burlington,22426,township
+lyndhurst,bergen,20015,township
+hazlet,monmouth,20732,township
+pleasantville,atlantic,20488,city
+millburn,essex,21177,township
+little egg harbor township,ocean,18807,township
+sparta township,sussex,20988,township
+palisades park,bergen,20429,borough
+elmwood park,bergen,18821,borough
+maple shade township,burlington,18427,township
+middle township,cape may,19101,township
+hawthorne,passaic,20011,borough
+glassboro,gloucester,18726,borough
+washington township,morris,19037,township
+morristown,morris,18651,town
+point pleasant,ocean,18355,borough
+aberdeen township,monmouth,18232,township
+dover,morris,18782,town
+rutherford,bergen,17789,borough
+tinton falls,monmouth,17471,borough
+lindenwold,camden,17998,borough
+dumont,bergen,18265,borough
+hopewell township,mercer,16623,township
+delran township,burlington,16499,township
+franklin township,gloucester,16640,township
+holmdel township,monmouth,17322,township
+wyckoff,bergen,16941,township
+denville township,morris,16868,township
+new milford,bergen,20215,borough
+secaucus,hudson,17001,town
+south orange village,essex,15963,township[8]
+readington township,hunterdon,15767,township
+asbury park,monmouth,16349,city
+south river,middlesex,16033,borough
+madison,morris,17726,borough
+springfield township,union,16495,township
+cinnaminson township,burlington,15410,township
+pequannock township,morris,16009,township
+north arlington,bergen,16029,borough
+warren township,somerset,15026,township
+mantua township,gloucester,14298,township
+hopatcong,sussex,14459,borough
+phillipsburg,warren,14369,town
+hammonton,atlantic,16109,town
+clark,union,14706,township
+haddon township,camden,14900,township
+tenafly,bergen,15242,borough
+ramsey,bergen,14712,borough
+branchburg,somerset,14502,township
+little falls,passaic,14164,township
+highland park,middlesex,14027,borough
+collingswood,camden,14537,borough
+fairview,bergen,14661,borough
+hanover township,morris,14169,township
+saddle brook,bergen,14757,township
+robbinsville township,mercer,13867,township
+middlesex,middlesex,17643,borough
+harrison,hudson,14349,town
+metuchen,middlesex,12907,borough
+clinton township,hunterdon,12499,township
+pennsville township,salem,13608,township
+verona,essex,13821,township
+roselle park,union,13759,borough
+berkeley heights,union,13224,township
+oakland,bergen,13154,borough
+ridgefield park,bergen,12376,village
+eatontown,monmouth,12290,borough
+lumberton township,burlington,15342,township
+weehawken,hudson,13015,township
+harrison township,gloucester,12703,township
+cedar grove,essex,11893,township
+upper township,cape may,31822,township
+ringwood,passaic,12454,borough
+red bank,monmouth,12150,borough
+new providence,union,13308,borough
+florence township,burlington,12669,township
+somerville,somerset,12418,borough
+freehold borough,monmouth,11894,borough
+hasbrouck heights,bergen,12277,borough
+woodland park,passaic,12834,borough
+ocean city,cape may,11206,city
+florham park,morris,11765,borough
+glen rock,bergen,12045,borough
+haddonfield,camden,11435,borough
+bellmawr,camden,11489,borough
+edgewater,bergen,12368,borough
+gloucester city,camden,11342,city
+bordentown township,burlington,12202,township
+wantage township,sussex,10934,township
+river edge,bergen,11724,borough
+wallington,bergen,11781,borough
+guttenberg,hudson,11695,town
+east hanover township,morris,11234,township
+wanaque,passaic,11994,borough
+pompton lakes,passaic,11206,borough
+beachwood,ocean,11248,borough
+ridgefield,bergen,11435,borough
+westwood,bergen,11326,borough
+totowa,passaic,10817,borough
+somers point,atlantic,10480,city
+west caldwell,essex,11021,township
+ventnor city,atlantic,10239,city
+waterford township,camden,10774,township
+little ferry,bergen,11000,borough
+franklin lakes,bergen,11255,borough
+millstone township,monmouth,10517,township
+lincoln park,morris,10468,borough
+southampton township,burlington,10205,township
+chatham township,morris,10435,township
+bound brook,somerset,10468,borough
+manville,somerset,10414,borough
+kinnelon,morris,10213,borough
+pine hill,camden,10536,borough
+hillsdale,bergen,10581,borough
+woolwich township,gloucester,12472,township
+woodbury,gloucester,9919,city
+colts neck township,monmouth,9968,township
+keansburg,monmouth,9806,borough
+burlington,burlington,9832,city
+hackettstown,warren,9554,town
+river vale,bergen,10223,township
+waldwick,bergen,10092,borough
+east greenwich township,gloucester,9860,township
+maywood,bergen,10520,borough
+mount holly,burlington,9645,township
+brigantine,atlantic,8963,city
+pittsgrove township,salem,8864,township
+washington township,bergen,9393,township
+pitman,gloucester,8846,borough
+chatham borough,morris,8928,borough
+leonia,bergen,9262,borough
+east rutherford,bergen,9928,borough
+edgewater park,burlington,8738,township
+audubon,camden,8733,borough
+westampton township,burlington,8760,township
+matawan,monmouth,8869,borough
+long hill township,morris,8711,township
+park ridge,bergen,8944,borough
+south amboy,middlesex,8857,city
+northfield,atlantic,8360,city
+cresskill,bergen,8935,borough
+mansfield township,burlington,8577,township
+runnemede,camden,8390,borough
+plumsted township,ocean,8543,township
+north haledon,passaic,8570,borough
+absecon,atlantic,8283,city
+closter,bergen,8766,borough
+byram township,sussex,7983,township
+boonton,morris,8354,town
+ocean township,ocean,9049,township
+haledon,passaic,8463,borough
+spotswood,middlesex,8456,borough
+hardyston township,sussex,7867,township
+upper saddle river,bergen,8415,borough
+bogota,bergen,8567,borough
+clayton,gloucester,8676,borough
+bedminster,somerset,8210,township
+west long branch,monmouth,7972,borough
+riverside township,burlington,7899,township
+carneys point township,salem,7702,township
+lopatcong township,warren,8348,township
+newton,sussex,7860,town
+oradell,bergen,8314,borough
+maurice river township,cumberland,6325,township
+kenilworth,union,8312,borough
+montvale,bergen,8724,borough
+chester township,morris,7915,township
+caldwell,essex,8085,borough
+mansfield township,warren,7464,township
+bernardsville,somerset,7815,borough
+chesterfield township,burlington,7587,township
+north hanover township,burlington,7540,township
+upper deerfield township,cumberland,7431,township
+bloomingdale,passaic,8242,borough
+wood-ridge,bergen,9018,borough
+berlin,camden,7606,borough
+buena vista township,atlantic,7422,township
+butler,morris,7774,borough
+glen ridge,essex,7704,borough
+haddon heights,camden,7588,borough
+fairfield township,essex,7614,township
+emerson,bergen,7739,borough
+palmyra,burlington,7221,borough
+new hanover township,burlington,7491,township
+fanwood,union,7808,borough
+keyport,monmouth,7085,borough
+dunellen,middlesex,7407,borough
+green brook township,somerset,7212,township
+midland park,bergen,7384,borough
+rumson,monmouth,6864,borough
+linwood,atlantic,6855,city
+stratford,camden,7015,borough
+barrington,camden,6781,borough
+tabernacle township,burlington,6882,township
+upper freehold township,monmouth,6975,township
+milltown,middlesex,7162,borough
+raritan,somerset,8011,borough
+mountainside,union,6982,borough
+washington township,warren,6461,township
+lebanon township,hunterdon,6101,township
+wharton,morris,6571,borough
+allendale,bergen,6906,borough
+shamong township,burlington,6433,township
+dennis township,cape may,6253,township
+washington,warren,6524,borough
+rockaway,morris,6474,borough
+margate city,atlantic,6083,city
+andover township,sussex,5978,township
+fairfield township,cumberland,6087,township
+union beach,monmouth,5562,borough
+north caldwell,essex,6730,borough
+mullica township,atlantic,6022,township
+carlstadt,bergen,6314,borough
+fair haven,monmouth,5950,borough
+hainesport township,burlington,6058,township
+paulsboro,gloucester,5920,borough
+eastampton township,burlington,5953,township
+logan township,gloucester,5944,township
+tewksbury township,hunterdon,5844,township
+blairstown,warren,5808,township
+little silver,monmouth,5908,borough
+jamesburg,middlesex,6068,borough
+union township,hunterdon,5543,township
+manasquan,monmouth,5903,borough
+mendham township,morris,5845,township
+prospect park,passaic,5964,borough
+oceanport,monmouth,5755,borough
+roseland,essex,5937,borough
+watchung,somerset,5985,borough
+belmar,monmouth,5682,borough
+old tappan,bergen,6042,borough
+woodcliff lake,bergen,5903,borough
+greenwich township,warren,5532,township
+norwood,bergen,5895,borough
+independence township,warren,5514,township
+frankford township,sussex,5348,township
+morris plains,morris,5581,borough
+rochelle park,bergen,5705,township
+hightstown,mercer,5384,borough
+berlin township,camden,5580,township
+wildwood,cape may,5070,city
+holland township,hunterdon,5151,township
+englewood cliffs,bergen,5453,borough
+hampton township,sussex,4896,township
+commercial township,cumberland,5018,township
+somerdale,camden,5508,borough
+penns grove,salem,4831,borough
+salem,salem,4774,city
+mount arlington,morris,5868,borough
+franklin,sussex,4775,borough
+highlands,monmouth,4821,borough
+clementon,camden,4959,borough
+mendham borough,morris,4978,borough
+alexandria township,hunterdon,4805,township
+greenwich township,gloucester,4846,township
+white township,warren,4747,township
+demarest,bergen,5032,borough
+neptune city,monmouth,4708,borough
+brielle,monmouth,4724,borough
+spring lake heights,monmouth,4618,borough
+mount ephraim,camden,4635,borough
+point pleasant beach,ocean,4544,borough
+harrington park,bergen,4846,borough
+northvale,bergen,4985,borough
+buena,atlantic,4429,borough
+flemington,hunterdon,4621,borough
+hopewell township,cumberland,4422,township
+delaware township,hunterdon,4474,township
+south bound brook,somerset,4657,borough
+atlantic highlands,monmouth,4311,borough
+magnolia,camden,4303,borough
+allamuchy township,warren,4644,township
+bradley beach,monmouth,4225,borough
+westville,gloucester,4194,borough
+delanco township,burlington,4479,township
+boonton township,morris,4350,township
+egg harbor city,atlantic,4174,city
+garwood,union,4408,borough
+elk township,gloucester,4175,township
+mountain lakes,morris,4345,borough
+medford lakes,burlington,4013,borough
+stillwater township,sussex,3920,township
+ho-ho-kus,bergen,4183,borough
+north wildwood,cape may,3843,city
+oaklyn,camden,3996,borough
+pilesgrove township,salem,3993,township
+east amwell township,hunterdon,3925,township
+bethlehem township,hunterdon,3888,township
+bordentown,burlington,3835,city
+lambertville,hunterdon,3824,city
+cranbury,middlesex,3944,township
+montague township,sussex,3695,township
+kingwood township,hunterdon,3752,township
+west amwell township,hunterdon,2767,township
+harding township,morris,3873,township
+merchantville,camden,3770,borough
+shrewsbury,monmouth,4122,borough
+south toms river,ocean,3772,borough
+mine hill township,morris,3593,township
+high bridge,hunterdon,3542,borough
+stanhope,sussex,3341,borough
+cape may,cape may,3480,city
+green township,sussex,3486,township
+riverdale,morris,4247,borough
+upper pittsgrove township,salem,3360,township
+woodstown,salem,3454,borough
+alloway township,salem,3327,township
+fredon township,sussex,3196,township
+springfield township,burlington,3295,township
+haworth,bergen,3497,borough
+tuckerton,ocean,3372,borough
+pohatcong township,warren,3231,township
+lawrence township,cumberland,3186,township
+monmouth beach,monmouth,3236,borough
+hamburg,sussex,3132,borough
+wildwood crest,cape may,3137,borough
+netcong,morris,3229,borough
+franklin township,hunterdon,3232,township
+franklin township,warren,3090,township
+south harrison township,gloucester,3170,township
+saddle river,bergen,3262,borough
+deerfield township,cumberland,3057,township
+knowlton township,warren,2996,township
+woodbury heights,gloucester,2972,borough
+long beach township,ocean,3065,township
+national park,gloucester,2985,borough
+spring lake,monmouth,2962,borough
+woodlynne,camden,2947,borough
+lawnside,camden,2920,borough
+liberty township,warren,2843,township
+seaside heights,ocean,2903,borough
+riverton,burlington,2706,borough
+clinton,hunterdon,2701,town
+weymouth township,atlantic,2820,township
+moonachie,bergen,2800,borough
+belvidere,warren,2603,town
+harmony township,warren,2520,township
+quinton township,salem,2489,township
+lakehurst,ocean,2697,borough
+pennington,mercer,2589,borough
+swedesboro,gloucester,2594,borough
+peapack and gladstone,somerset,2610,borough
+beverly,burlington,2504,city
+lafayette township,sussex,2404,township
+oxford township,warren,2454,township
+woodbine,cape may,2461,borough
+ogdensburg,sussex,2282,borough
+east newark,hudson,2735,borough
+south hackensack,bergen,2492,township
+alpha,warren,2297,borough
+wenonah,gloucester,2239,borough
+gibbsboro,camden,2247,borough
+frelinghuysen township,warren,2200,township
+helmetta,middlesex,2223,borough
+sussex,sussex,2024,borough
+pine beach,ocean,2168,borough
+sea isle city,cape may,2068,city
+essex fells,essex,2137,borough
+ocean gate,ocean,2021,borough
+sandyston township,sussex,1856,township
+brooklawn,camden,1934,borough
+hope township,warren,1890,township
+hopewell,mercer,1948,borough
+laurel springs,camden,1886,borough
+avon-by-the-sea,monmouth,1794,borough
+folsom,atlantic,1815,borough
+lavallette,ocean,1849,borough
+alpine,bergen,1890,borough
+englishtown,monmouth,1943,borough
+allentown,monmouth,1811,borough
+sea girt,monmouth,1774,borough
+mannington township,salem,1731,township
+woodland township,burlington,1775,township
+oldmans township,salem,1792,township
+lower alloways creek township,salem,1688,township
+lake como,monmouth,1717,borough
+estell manor,atlantic,1720,city
+glen gardner,hunterdon,1924,borough
+hardwick township,warren,1643,township
+island heights,ocean,1667,borough
+chester borough,morris,1665,borough
+chesilhurst,camden,1639,borough
+eagleswood township,ocean,1611,township
+downe township,cumberland,1524,township
+seaside park,ocean,1549,borough
+newfield,gloucester,1561,borough
+victory gardens,morris,1516,borough
+winfield township,union,1528,township
+bass river township,burlington,1436,township
+stow creek township,cumberland,1405,township
+sea bright,monmouth,1389,borough
+pemberton,burlington,1340,borough
+hampton,hunterdon,1331,borough
+elmer,salem,1312,borough
+frenchtown,hunterdon,1366,borough
+lebanon,hunterdon,1669,borough
+avalon,cape may,1267,borough
+farmingdale,monmouth,1298,borough
+milford,hunterdon,1189,borough
+surf city,ocean,1187,borough
+beach haven,ocean,1182,borough
+ship bottom,ocean,1143,borough
+shrewsbury township,monmouth,1010,township
+port republic,atlantic,1080,city
+califon,hunterdon,1068,borough
+elsinboro township,salem,976,township
+west cape may,cape may,1015,borough
+audubon park,camden,1012,borough
+bay head,ocean,981,borough
+far hills,somerset,927,borough
+longport,atlantic,876,borough
+roosevelt,monmouth,854,borough
+bloomsbury,hunterdon,867,borough
+hi-nella,camden,846,borough
+stone harbor,cape may,822,borough
+branchville,sussex,783,borough
+interlaken,monmouth,801,borough
+greenwich township,cumberland,771,township
+wrightstown,burlington,785,borough
+deal,monmouth,733,borough
+washington township,burlington,710,township
+rocky hill,somerset,688,borough
+andover,sussex,567,borough
+west wildwood,cape may,566,borough
+barnegat light,ocean,587,borough
+fieldsboro,burlington,531,borough
+stockton,hunterdon,520,borough
+rockleigh,bergen,534,borough
+shiloh,cumberland,497,borough
+allenhurst,monmouth,489,borough
+corbin city,atlantic,500,city
+millstone,somerset,420,borough
+harvey cedars,ocean,342,borough
+mantoloking,ocean,257,borough
+cape may point,cape may,279,borough
+loch arbour,monmouth,183,village
+teterboro,bergen,69,borough
+walpack township,sussex,11,township
+pine valley,camden,11,borough
+tavistock,camden,5,borough
