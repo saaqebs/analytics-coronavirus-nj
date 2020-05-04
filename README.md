@@ -4,7 +4,7 @@ There are two datasets being using in this project:
 
 - [`covid19-newjersey`](https://github.com/saaqebs/covid19-newjersey): An _ongoing_ data collection of the number of COVID-19 cases per New Jersey municipalities from March 25, 2020 to Present.
 
-- [`municipal.csv`](./data/municipal.csv): Basic population statistics and which county they are a part of for each NJ municipality 
+- [`municipal.csv`](./data/municipal.csv): Basic population statistics and which county they are a part of for each NJ municipality.
 
 At the moment, these are the two main datasets being used. I may incorporate median income for each township if I am able to find a good dataset describing this.
 
@@ -40,6 +40,9 @@ Most (if not all) counties with high rates of infection have been posting daily,
 
 I recently found a bug of duplicate municipality names and am actively working on fixing it. 
 
+<!-- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
+
+![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) -->
 
 ## New Jersey Municipality Data
 
@@ -61,7 +64,7 @@ After scraping the data from the Wikipedia entry, it is stored into a CSV file a
 | somerville | somerset  | 12418      | borough  |
 | ...        | ...       | ...        | ...      |
 
-The attributes for this dataset is the "Municipal", "County", "Population", and "Type". The "Type" column contains whether this municipality is a "city", "township", "borough", etc.
+The attributes for this dataset is the "Municipal", "County", "Population", and "Type". The "Population" column is the estimated population of the municipality in 2017. The "Type" column contains whether this municipality is a "city", "township", "borough", etc.
 
 #### Notes
 
@@ -72,9 +75,9 @@ I hope to expand this dataset and include a median income column for each munici
 
 There are three main Python Notebook files that have code that has been used to aggregate or analyze the data above. 
 
-- [`Analytics.ipynb`](./Analytics.ipynb): Contains the preloaded data frames of the described datasets from above
+- [`Analytics.ipynb`](./Analytics.ipynb): Contains the preloaded data frames of the described datasets from above.
 
-- [`NJMunicipalFullData.ipynb`](./scripts/NJMunicipalFullData.ipynb): Scrapes the Wikipedia entry for NJ Municipality data
+- [`NJMunicipalFullData.ipynb`](./scripts/NJMunicipalFullData.ipynb): Scrapes the Wikipedia entry for NJ Municipality data.
 
 - [`NJCovid19Data.ipynb`](./scripts/NJCovid19Data.ipynb): Scrapes NJ.com article for COVID-19 cases for one day. I have a seperate script located in [this repository](https://github.com/saaqebs/covid19-newjersey) to automate the collection of data daily. 
 
