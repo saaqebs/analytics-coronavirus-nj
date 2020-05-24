@@ -22,13 +22,13 @@ The data is collected and recorded by different counties in NJ, which is then co
 
 After scraping the data from the article, it is stored in a CSV file format for an ongoing compilation of the number of cases per municipality in New Jersey. The structure of the file is as such:
 
-| Date          | NJ Municipality | Number of Cases |
-|---------------|-----------------|-----------------|
-| march-25-2020 | allendale       | 4               |
-| march-25-2020 | alpine          | 1               |
-| ...           | ...             | ...             |
+| Municipal | County        | Cases | Date          |
+|-----------|---------------|-------|---------------|
+| allendale | bergen county | 4     | march-25-2020 |
+| alpine    | bergen county | 1     | march-25-2020 |
+| ...       | ...           | ...   | ...           |
 
-The "Date" column is structured as `{month name}-{day}-{year}`. The "Municipal" variable contains the official municipality name as posted in [`nj_municipals.txt`](./data/nj_municipals.txt). The "Cases" column is simply an integer indicating the number of cases.
+The "Date" column is structured as `{month name}-{day}-{year}`. The "Municipal" and "County" variable contains the official municipality name with its corresponding county as posted in [`nj_municipals.json`](./data/nj_municipals.json). The "Cases" column is simply an integer indicating the number of cases.
 
 #### Notes
 
@@ -36,9 +36,7 @@ As of April 26, all counties have been reporting township case numbers. However,
 
 There was no publication of data for May 1, 2020 on NJ.com. 
 
-Most (if not all) counties with high rates of infection have been posting daily, but other counties have been updating a variable amount of days.
-
-I recently found a bug of duplicate municipality names and am actively working on fixing it. 
+I recently found a bug where on 3 dates (5/8, 5/15, 5/21) where they split the data publishing into multiple days, affecting the automated data parsing. 
 
 <!-- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 
@@ -82,3 +80,36 @@ There are three main Python Notebook files that have code that has been used to 
 - [`NJCovid19Data.ipynb`](./scripts/NJCovid19Data.ipynb): Scrapes NJ.com article for COVID-19 cases for one day. I have a seperate script located in [this repository](https://github.com/saaqebs/covid19-newjersey) to automate the collection of data daily. 
 
 More details can be found in those specific files.
+
+## Significance
+
+### Case Rates Brings Numbers Down to Earth
+
+What was the most interesting to me was how the case rates in most municipalities (with the exception of 1 municipal at 25%) hovered at 1.5%. Since New Jersey only began testing asymptomatic cases last week, it makes sense that the positivity rate is extremely low. An observation regarding this is the fact how the standard deviation and variance for the case rate is extremely low (Variance is 0.02%!).
+
+This shows while it is _extremely frightening_ to see a high number of cases Franklin Township  than in South Brunswick (452) (neighboring townships), the case rates for each  townships is still hovering around 1-2% (1.7% and 0.97% respectively).
+
+![](documents/collective.png)
+*Comparing Central Jersey case numbers. More specifically the difference between two neighboring towns: South Brunswick and Franklin Township.*
+
+Further proving this is a histogram illustrating the distribution of case rates. The histogram excludes two outliers: Woodland Township (13.5%) and Rockleigh (27.1%).
+
+![](documents/histogram.png)
+*A histogram displaying the distribution of case rates.*
+
+This histogram ultimately shows that most municipalities hover around 1% case rate.
+
+One thing to note however is the fact that 1% of 45,000 (South Brunswick) is a much bigger number of people than 1% 67,000 people (Franklin Township). The difference is $670 - 450 = 220$ more people.
+
+A prediction: With a massive increase of testing, the number of asymptomatic case being tested as positive will rise will cause the average case rate to rise up to 4% of the municipal's population.
+
+### Case Rate and Municipality Type Relationship
+
+Since COVID-19 is a respiratory disease, it only makes sense for denser populated areas to have a higher outbreak of the virus. This prompted me to analyze the relationship between case rate and the different types of municipalities. 
+
+The analysis showed that Boroughs and Townships had low case rates regardless of populations. This may be a result of the nature of boroughs and townships; these types of municipalities have their populous spread across a large area, limiting the close interactions between groups of people.
+
+![](documents/stable.png)
+*Observing the relationship between Townships/Boroughs.*
+
+The most promising is with City; the Spearmans's correlation is 0.80, showing that there some sort of correlation. In the figure below, it is quite clear that the two variables are positively correlated 
