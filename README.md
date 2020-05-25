@@ -89,15 +89,19 @@ What was the most interesting to me was how the case rates in most municipalitie
 
 This shows while it is _extremely frightening_ to see a high number of cases Franklin Township  than in South Brunswick (452) (neighboring townships), the case rates for each  townships is still hovering around 1-2% (1.7% and 0.97% respectively).
 
-![](documents/collective.png)
+<center> <img src="documents/collective.png" alt="Data" width="500" /> 
+<!-- ![](documents/collective.png) -->
+
 *Comparing Central Jersey case numbers. More specifically the difference between two neighboring towns: South Brunswick and Franklin Township.*
+</center>
 
-Further proving this is a histogram illustrating the distribution of case rates. The histogram excludes two outliers: Woodland Township (13.5%) and Rockleigh (27.1%).
+<center> <img src="documents/histogram.png" alt="Data" width="500" /> 
+<!-- ![](documents/histogram.png) -->
 
-![](documents/histogram.png)
 *A histogram displaying the distribution of case rates.*
+</center>
 
-This histogram ultimately shows that most municipalities hover around 1% case rate.
+Further proving this is a histogram illustrating the distribution of case rates. The histogram excludes two outliers: Woodland Township (13.5%) and Rockleigh (27.1%). This histogram ultimately shows that most municipalities hover around 1% case rate.
 
 One thing to note however is the fact that 1% of 45,000 (South Brunswick) is a much bigger number of people than 1% 67,000 people (Franklin Township). The difference is $670 - 450 = 220$ more people.
 
@@ -109,13 +113,19 @@ Since COVID-19 is a respiratory disease, it only makes sense for denser populate
 
 The analysis showed that Boroughs and Townships had low case rates regardless of populations. This may be a result of the nature of boroughs and townships; these types of municipalities have their populous spread across a large area, limiting the close interactions between groups of people.
 
-![](documents/stable.png)
+<center> <img src="documents/stable.png" alt="Data" width="900" /> 
+<!-- ![](documents/stable.png) -->
+
 *Observing the relationship between Townships/Boroughs.*
+</center>
 
 The most promising is with City; the Spearmans's correlation is 0.80, showing that there some sort of correlation. In the figure below, it is quite clear that the two variables are positively correlated as the population increases. The curve is seemingly steeper with the extremely low populations, then does not increase as quickly with a much higher population.
 
-![](documents/cities.png)
+<center> <img src="documents/cities.png" alt="Data" width="500" /> 
+<!-- ![](documents/cities.png) -->
+
 *The positively correlated case rates and population with the subgroup of municipalities of 'Cities' in New Jersey.*
+</center>
 
 All in all, these results are slightly significant because of the nature of these different types of municipalities that may have led to these rise in cases. Something to inspect in the future is the relationship between municipalities in North, Central, and South Jersey that may have affected the overall correlations between the populations and case rates.
 ### Number of Cases and Municipality Type Relationship
@@ -124,8 +134,11 @@ Aside from the relationships that were observed from the different municipalitie
 
 As such, the graph below illustrates the number of cases plotted with their corresponding municipality type.
 
-![](documents/type2cases.png)
+<center> <img src="documents/type2cases.png" alt="Data" width="500" /> 
+<!-- ![](documents/type2cases.png) -->
+
 *Inspecting the relationship between municipality type and the number of cases.*
+</center>
 
 The results seemingly show the effect that some of these municipality types may have on the number of cases. This phenonemon may be explained through possibly examining population density of each NJ municipality.
 
@@ -135,8 +148,11 @@ One thing to inspect in the future is the relationship between case rates and po
 
 Using the historical dataset of each township from March 25, we could then use a purely mathematical model to fit and predict the rise (or fall) of cases in all of the municipalities. The figure below is an instance of a _purely_ mathematical mode being fitted onto the historical chart.
 
-![](documents/predictive.png)
+<center> <img src="documents/predictive.png" alt="Data" width="500" /> 
+<!-- ![](documents/predictive.png) -->
+
 *A mathematical model to predict the number of cases in Franklin Park Township for the next week.*
+</center>
 
 Since it is observable that the number of cases is falling, we should therefore see the model "stabilize" or "flatline. While this model seemingly falls in line with this hypothesis, the model is most likely off (by a lot).
 
@@ -146,8 +162,11 @@ This model was trained and fitted over a polynomial with the highest degree of *
 
 However, the linear model is heavily underfitted, since it does not quantify the encorporation of social distancing measures implemented by New Jersey Government to combat the ongoing pandemic. 
 
-![](documents/linearp.png)
+<center> <img src="documents/linearp.png" alt="Data" width="500" />
+<!-- ![](documents/linearp.png) -->
+
 *An underfitted model predicting the growth in cases in Franklin Park Township.*
+</center>
 
 To combat these problems, the best way to correct these purely quantitative models is to include external qualitative (as well as quantitative) features to further enhance the quality of the predictive model. In my opinion, the current tragectory may fit a more logarithmic type graph than a polynomial.
 
