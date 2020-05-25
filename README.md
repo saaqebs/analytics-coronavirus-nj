@@ -112,4 +112,57 @@ The analysis showed that Boroughs and Townships had low case rates regardless of
 ![](documents/stable.png)
 *Observing the relationship between Townships/Boroughs.*
 
-The most promising is with City; the Spearmans's correlation is 0.80, showing that there some sort of correlation. In the figure below, it is quite clear that the two variables are positively correlated 
+The most promising is with City; the Spearmans's correlation is 0.80, showing that there some sort of correlation. In the figure below, it is quite clear that the two variables are positively correlated as the population increases. The curve is seemingly steeper with the extremely low populations, then does not increase as quickly with a much higher population.
+
+![](documents/cities.png)
+*The positively correlated case rates and population with the subgroup of municipalities of 'Cities' in New Jersey.*
+
+All in all, these results are slightly significant because of the nature of these different types of municipalities that may have led to these rise in cases. Something to inspect in the future is the relationship between municipalities in North, Central, and South Jersey that may have affected the overall correlations between the populations and case rates.
+### Number of Cases and Municipality Type Relationship
+
+Aside from the relationships that were observed from the different municipalities and the case rate, one thing that was foreseen was how townships and boroughs had a seeingly constant relationship (without outliers). However, cities has a positive correlation between case rates and population. This begged the question of where the higher cases were coming from. 
+
+As such, the graph below illustrates the number of cases plotted with their corresponding municipality type.
+
+![](documents/type2cases.png)
+*Inspecting the relationship between municipality type and the number of cases.*
+
+The results seemingly show the effect that some of these municipality types may have on the number of cases. This phenonemon may be explained through possibly examining population density of each NJ municipality.
+
+One thing to inspect in the future is the relationship between case rates and population density score; from observing the results from the 'Cities' chart, population density may play a role in affecting a higher case rate.
+
+### Simple Mathematical Predictive Model
+
+Using the historical dataset of each township from March 25, we could then use a purely mathematical model to fit and predict the rise (or fall) of cases in all of the municipalities. The figure below is an instance of a _purely_ mathematical mode being fitted onto the historical chart.
+
+![](documents/predictive.png)
+*A mathematical model to predict the number of cases in Franklin Park Township for the next week.*
+
+Since it is observable that the number of cases is falling, we should therefore see the model "stabilize" or "flatline. While this model seemingly falls in line with this hypothesis, the model is most likely off (by a lot).
+
+The reason for this is through one simple phenomenon: _overfitting._ 
+
+This model was trained and fitted over a polynomial with the highest degree of **four**. This suggest an extremely highly overfitted model, since I found that most machine learning experts rarely even use the cubic polynomial for modeling. 
+
+However, the linear model is heavily underfitted, since it does not quantify the encorporation of social distancing measures implemented by New Jersey Government to combat the ongoing pandemic. 
+
+![](documents/linearp.png)
+*An underfitted model predicting the growth in cases in Franklin Park Township.*
+
+To combat these problems, the best way to correct these purely quantitative models is to include external qualitative (as well as quantitative) features to further enhance the quality of the predictive model. In my opinion, the current tragectory may fit a more logarithmic type graph than a polynomial.
+
+## Conclusion
+
+Overall, I am pretty confident on the conclusions I came across for these analysis. Some of the analytics were surprising, but there are many things that need to be further examined before making a definitive claim of why there are higher cases in certain New Jersey muncipalities than others. 
+
+The predictive model is something that I want to personally explore more, since there are avenues that could be explored to further enhance the predictive model for New Jersey.
+
+## Code: 
+
+### Links: 
+- [Data Source Repository](https://github.com/saaqebs/covid19-newjersey)
+- [Analyitics Repository](https://github.com/saaqebs/analytics-coronavirus-nj/tree/info2950-final-project)
+
+### Acknowledgements:
+- [NJ.com/coronavirus](https://www.nj.com/coronavirus/)
+- [Graphing with Slope-Intercept](https://stackoverflow.com/questions/7941226/how-to-add-line-based-on-slope-and-intercept-in-matplotlib)
