@@ -154,7 +154,7 @@ Using the historical dataset of each township from March 25, we could then use a
 *A mathematical model to predict the number of cases in Franklin Park Township for the next week.*
 </center>
 
-Since it is observable that the number of cases is falling, we should therefore see the model "stabilize" or "flatline. While this model seemingly falls in line with this hypothesis, the model is most likely off (by a lot).
+Since it is observable that the number of cases is falling, we should therefore see the model "stabilize" or "flatline". While this model seemingly falls in line with this hypothesis, the model is most likely off (by a lot).
 
 The reason for this is through one simple phenomenon: _overfitting._ 
 
